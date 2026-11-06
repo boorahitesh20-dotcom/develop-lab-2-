@@ -33,8 +33,8 @@ docker compose down
 
 DOCKER HUB
 docker login
-docker tag devops-lab2:v1 axdy02/devops-lab2:v1
-docker push axdy02/devops-lab2:v1
+docker tag devops-lab2:v1 boorahitesh20-dotcom/devops-lab2:v1
+docker push boorahitesh20-dotcom/devops-lab2:v1
 
 STORAGE - DATA LOSS
 docker run -it --name storage-test ubuntu bash
@@ -93,11 +93,11 @@ kubectl get deployment devops-lab2
 kubectl get pods
 
 VERSION 2 / DOCKER HUB
-docker build -t axdy02/devops-lab2:v2 .
-docker push axdy02/devops-lab2:v2
+docker build -t boorahitesh20-dotcom/devops-lab2:v2 .
+docker push boorahitesh20-dotcom/devops-lab2:v2
 
 ROLLING UPDATE
-kubectl set image deployment/devops-lab2 devops-lab2=axdy02/devops-lab2:v2
+kubectl set image deployment/devops-lab2 devops-lab2=boorahitesh20-dotcom/devops-lab2:v2
 kubectl rollout status deployment/devops-lab2
 kubectl get pods
 kubectl get deployment devops-lab2 -o jsonpath='{.spec.template.spec.containers[0].image}'; echo
