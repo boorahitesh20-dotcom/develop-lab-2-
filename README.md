@@ -57,7 +57,7 @@ Application Source
       v
     Docker
       |
-      +--> Docker Hub: axdy02/devops-lab2:v1 / v2
+      +--> Docker Hub: boorahitesh20-dotcom/devops-lab2:v1 / v2
       |
       v
 GitHub Repository
