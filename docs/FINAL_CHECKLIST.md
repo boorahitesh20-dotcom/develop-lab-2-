@@ -113,5 +113,5 @@
 ## Submission URL
 
 ```text
-https://github.com/axdy02/devops-lab2
+https://github.com/boorahitesh20-dotcom/develop-lab-2
 ```
