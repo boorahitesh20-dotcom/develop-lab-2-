@@ -83,7 +83,7 @@ Scaled `devops-lab2` from two to four replicas. Four pods reached `Running` stat
 
 ### Rolling update
 
-Built and pushed `axdy02/devops-lab2:v2`, changed the Deployment image to v2, and waited for rollout completion. Kubernetes replaced old pods progressively and the Version 2 page was verified in the browser.
+Built and pushed `boorahitesh20-dotcom/devops-lab2:v2`, changed the Deployment image to v2, and waited for rollout completion. Kubernetes replaced old pods progressively and the Version 2 page was verified in the browser.
 
 ### Rollback
 
