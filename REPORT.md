@@ -48,7 +48,7 @@ Docker lifecycle commands were used to list, start, stop and remove containers. 
 The application image was tagged for Docker Hub and pushed to:
 
 ```text
-axdy02/devops-lab2:v1
+boorahitesh20-dotcom/devops-lab2:v1
 ```
 
 A Docker Compose configuration was also created with two services:
@@ -133,7 +133,7 @@ kubectl scale deployment devops-lab2 --replicas=4
 A second version of the application was created and built as:
 
 ```text
-axdy02/devops-lab2:v2
+boorahitesh20-dotcom/devops-lab2:v2
 ```
 
 The v2 image was pushed to Docker Hub. The Deployment image was then updated to v2. `kubectl rollout status` showed Kubernetes progressively replacing the old replicas with new replicas. The browser displayed the Version 2 page.
@@ -178,7 +178,7 @@ The captured Jenkins run shows:
 The final captured Kubernetes state shows two running pods and the Deployment using:
 
 ```text
-axdy02/devops-lab2:v2
+boorahitesh20-dotcom/devops-lab2:v2
 ```
 
 **Result:** Kubernetes manifest application and rollout verification were automated through Jenkins.
