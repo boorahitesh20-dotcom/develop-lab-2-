@@ -8,7 +8,7 @@ flowchart LR
     B --> C[Docker Image v1 / v2]
     C --> D[Docker Container]
     D --> E[localhost:5000]
-    C --> F[Docker Hub axdy02/devops-lab2]
+    C --> F[Docker Hub boorahitesh20-dotcom/devops-lab2]
 ```
 
 ## Docker Compose Flow
